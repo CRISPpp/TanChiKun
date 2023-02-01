@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EndActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/img_dlq"
+        android:src="@drawable/dlq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/end_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="最终得分: 0" />
+
+    <Button
+        android:drawableLeft="@drawable/ji"
+        android:id="@+id/btn_restart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="重开"/>
+
+</LinearLayout>
